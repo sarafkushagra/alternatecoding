@@ -9,7 +9,7 @@
 body {
     display: flex;
     justify-content: center;
-    background: lightgreen
+    background:white;
 }
 
 .topic {
@@ -21,14 +21,18 @@ body {
 }
 
 .box {
-    margin-top: 50px;
-    height: 70vh;
-    width: 20%;
+    margin-top: 30px;
+    height: 90vh;
+    width: 30%;
+    border: solid;
+    border-radius: 10%;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    padding: 2.5px 59.7px;
 }
 
 button {
-    height: 63.8px;
-    width: 63.8px;
+    height: 66.8px;
+    width: 66.8px;
     border: none;
     border-radius: 50%;
     margin-top: 10px;
@@ -42,11 +46,12 @@ button:hover {
 
 input {
     height: 80px;
-    width: 98%;
+    width: 100%;
     font-size: 60px;
     border: solid;
     overflow-x: auto;
     white-space: nowrap;
+
 }
 
 input::placeholder {
