@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background: rgb(219, 60, 86);
+}
+
+.que {
+    display: block;
+}
+
+.box {
+    background: pink;
+    padding: 20px;
+    height: 93vh;
+}
+
+.head {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: solid;
+}
+
+.data {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
+
+.gender {
+    height: 120px;
+}
+
+input {
+    height: 50px;
+    width: 270px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+.submit {
+    margin-top: 100px;
+    margin-left: 595px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+}
+
+.ans {
+    display: none;
+}
+
+.headin {
+    text-align: center;
+    font-size: 30px;
+}
+
+.outcome {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-style: normal;
+}
+
+.photo img {
+    height: 50vh;
+    margin-left: 420px;
+}
+
+.try {
+    margin-top: 10px;
+    margin-left: 1140px;
+}
+
+.tryagain {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+}
