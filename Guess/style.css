@@ -1,0 +1,39 @@
+.container2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.centre {
+    width: 51%;
+    background-color: aqua;
+    height: 458px;
+}
+
+.game button {
+    height: 80px;
+    width: 80px;
+}
+
+i {
+    font-size: 40px;
+    height: 70px;
+    width: 70px;
+    margin: -7px;
+    align-content: center;
+}
+
+.game .icon-button {
+    padding: 9px;
+    margin: 18px;
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+}
+
+.r1,
+.r2,
+.r3,
+.r4 {
+    display: flex;
+}
